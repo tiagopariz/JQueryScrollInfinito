@@ -12,7 +12,7 @@
 				w.scroll(function () {
 					if($(document).height() - w.height() == w.scrollTop()) {		
 						$.ajax({
-							url: 'texto.html',
+							url: 'https://raw.githubusercontent.com/tiagopariz/JQueryScrollInfinito/master/texto.html',
 							datatype: 'html',
 							success: function(html) {
 								$(".conteudo").append(html);
